@@ -1,0 +1,34 @@
+{
+    "common":
+    {
+        "js":["dist/assets/js/common/common.js"],
+        "css":["dist/assets/css/common/common.css"]
+    },
+    "routes": [
+        {
+            "route": "pages/index.html",
+            "pageJs":[
+                "dist/assets/js/pages/homepage/homepage.js"
+            ],
+            "pageCss":[
+                "dist/assets/css/pages/homepage/homepage.css"]
+        },
+        {
+            "route": "pages/example-page/index.html",
+            "pageJs":[
+                "dist/assets/js/pages/example-page/example-page.js"
+            ],
+            "pageCss":[
+                "dist/assets/css/pages/example-page/example-page.css"]
+        },
+        {
+            "route": "partials/meta.html",
+            "pageJs":[
+                "dist/assets/js/pages/example-page/example-page.js"
+            ],
+            "pageCss":[
+                "dist/assets/css/pages/example-page/example-page.css"]
+        }
+    ]
+}
+
